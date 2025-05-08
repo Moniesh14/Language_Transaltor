@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Language Translator</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body> 
+
+    <header>
+        <h1><i>Language Translator</i></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Translate Your Text</h2>
+
+            <textarea id="textInput" placeholder="Enter text to translate..."></textarea><br>
+
+            <select id="languageSelect">
+                <option value="fr">French</option>
+                <option value="es">Spanish</option>
+                <option value="de">German</option>
+                <option value="hi">Hindi</option>
+                <option value="zh">Chinese</option>
+              </select>
+              
+
+            <button onclick="translateText()">Translate</button>
+
+            <p id="output"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Language Translator. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

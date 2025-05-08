@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginnew.css">
+    <script src="loginnew.js" defer></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <form action="login.php" method="post" onsubmit="return validateform()">
+            <h2>Log In</h2>
+
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+                <div class="error">Required</div>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password">
+                <div class="error">Required</div>
+                <center><button type="submit">Login</button></center>
+            </div>
+            <center><p>"Your World. One Click."</p></center>
+           <center><a href="index.html">Back</a></center>
+
+        </form>
+    </div>
+    
+</body>
+</html>
